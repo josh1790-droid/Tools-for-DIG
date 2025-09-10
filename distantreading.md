@@ -10,20 +10,45 @@ title: Distant Reading Project
 
 *These are my findings useing Voyant and CoPilot respectively. I chose to the novel of 20,000 Leagues Under the Seas by Jules Verne.*
 
-Here is the a snippet of the results by Voyant: 
-![alt text]<iframe style='width: 637px; height: 491px;' src='https://voyant-tools.org/tool/Cirrus/?visible=275&corpus=de6eaf11b6130591549e3852e7db67dc'></iframe>(image.jpg)
+Here is the a an image of the Cirrus and Trends created by Voyant when I submitted the title of the novel:  <img width="1696" height="936" alt="image" src="https://github.com/user-attachments/assets/22261d01-c9f4-4174-8077-5f18beea9649" /> <img width="2548" height="1700" alt="image" src="https://github.com/user-attachments/assets/3d1b431a-b914-4c32-9779-889c11a6fc02" />
 
-Here is a few themes that werw found when searched CoPilot: The main themes of Twenty Thousand Leagues Under the Sea by Jules Verne, based on the full content of your document, span across science, philosophy, adventure, and social commentary. Here's a structured breakdown of the key themes:
 
-1. Scientific Exploration and Discovery
-The novel is a celebration of marine biology, oceanography, and technological innovation.
-Through the eyes of Professor Aronnax, readers explore the mysteries of the deep sea, including coral reefs, marine life, shipwrecks, and even the lost continent of Atlantis.
-The Nautilus itself is a marvel of engineering, powered by electricity and equipped with advanced instruments for underwater navigation and research.
-2. The Power and Limits of Technology
-Verne juxtaposes the imaginative power of fiction with real-world scientific progress.
-The Nautilus represents both the triumph and the danger of unchecked technological advancement.
-The submarine’s capabilities—speed, stealth, weaponry—are awe-inspiring but also isolating and destructive.
-3. Isolation and Freedom
-Captain Nemo chooses to live beneath the sea, rejecting terrestrial society and its injustices.
-His submarine becomes a symbol of personal freedom, but also of emotional and ideological isolation.
-The tension between freedom and captivity is central to the experience of Aronnax, Conseil, and Ned Land.
+
+Here is the summary statement that was given when I used CoPilot for the novel: The main themes of Twenty Thousand Leagues Under the Sea by Jules Verne, based on the full content of your document, span across science, philosophy, adventure, and social commentary.
+
+Now when I asked CoPilot the questions posed in the assignment, here is what I received: 
+
+So, what do these results actually tell me about the book?
+
+Copilot: They give you a solid understanding of the main themes. You learn that the story is about:
+
+Scientific exploration and discovery
+The power and danger of technology
+Captain Nemo’s isolation and philosophy
+The beauty and mystery of the ocean
+Revenge, justice, and moral complexity
+Companionship and conflict among the crew
+Social and political commentary
+
+That’s a lot. Do I also get a sense of the story?
+
+Copilot: Yes! You see the journey of the Nautilus, the characters involved, and the major events—like the discovery of Atlantis, battles with sea creatures, and Nemo’s final act of vengeance. You also get historical and scientific context, like the real-life expedition of La Perouse and the use of electric propulsion.
+
+❓ What You Can’t Know
+What’s missing from these results?
+
+Good question. You don’t get:
+
+The exact language or literary style of Jules Verne
+The emotional depth or psychological nuance of the characters
+Symbolism or deeper allegorical meanings
+The immersive experience of reading the novel yourself
+
+So I can’t really “feel” the story?
+
+Copilot: Exactly. You get the structure and ideas, but not the atmosphere, suspense, or poetic detail that Verne uses to bring the ocean to life.
+
+✅ Are These Results Accurate?
+Can I trust this summary?
+
+Copilot: Absolutely. It’s based directly on the full text you uploaded. The themes and events are drawn from the actual chapters, including the foreword, character introductions, and final scenes. It’s a reliable overview.
