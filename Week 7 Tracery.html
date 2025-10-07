@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attack of the Phones</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Describe the work here.">
+	<meta name="keywords" content="Enter a comma separated list of keywords for search engines to find your work.">
+	<meta name="author" content="Your name">
+<!--
+Tracery to HTML Template
+
+Copyright 2023 Leonardo Flores
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+<!-- 
+Enter credits or author's statement here.
+-->
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: lightslategray;
+    }
+    
+    #title-container {
+        width: 100%;
+        text-align: center;
+        max-height: 300px;
+		font-size: 4em;
+    }
+    
+    @media (max-width: 600px) {
+        #title-container {
+            max-height: 200px;
+        }
+        
+        #text-container {
+            width: 100%;
+        }
+    }
+    
+    #text-container {
+        text-align: center;
+        font-size: 2.5em;
+        color: red;
+        margin: auto; /* Center horizontally and vertically */
+        border: 0px solid black; /* Change 0px to your desired border thickness, if desired */
+        padding: 10px;
+        width: 400px;
+    }
+
+    /* CSS for buttons and modal */
+    #button-container {
+        position: fixed;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 100%;
+    }
+    
+    .button {
+        margin: 10px;
+        font-size: 2em;
+    }
+	
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+        font-size: 2.5em;
+    }
+
+    /* The Close Button */
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+</style>
+    </head>
+    <body>
+		<div id="title-container">Title</div>
+
+        <div id="text-container"></div>
+
+        <div id="button-container">
+            <button class="button" onclick="displayAbout()">About</button>
+            <button class="button" onclick="displayString()">Regenerate</button>
+        </div>
+
+        <div id="myModal" class="modal">
+            <!-- Replace the statement below with your own artistic statement. -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>The growing prevalence of anxiety and depression among young adults highlights an urgent need to examine how digital environments and coping interventions influence mental health outcomes. Recent studies suggest that increased social media exposure is strongly correlated with higher levels of psychological distress, particularly among adolescents and college students who engage in prolonged screen time (Twenge and Campbell 272). Such findings emphasize the importance of identifying protective factors that promote resilience and emotional well-being. Mindfulness-based interventions, which encourage awareness and nonjudgmental attention to one’s thoughts and feelings, have shown considerable promise in reducing stress and improving mood regulation (Kabat-Zinn 148). By integrating mindfulness practices into educational and community settings, this research seeks to explore how self-regulation techniques may buffer the negative mental health effects of excessive digital engagement. Understanding these relationships will contribute to developing accessible, evidence-based strategies that enhance coping skills, promote mental wellness, and foster resilience in populations most affected by the pressures of modern connectivity.
+				</p> 
+            </div>
+        </div>
+    <script> /* In the var immediately below, copy-paste your Tracery/CBDQ JSON between the {} brackets */
+    var obj = {
+  "origin": [
+    "#sentence1# #sentence2#"
+  ],
+  "sentence1": [
+    "Researchers are exploring how #population# experience #mentalhealth_issue# when exposed to #social_factor#.",
+    "Recent studies suggest that #population# face increased #mentalhealth_issue# due to #social_factor#.",
+    "Experts have found that #population# often develop #mentalhealth_issue# while dealing with #social_factor#.",
+    "Current research shows that #population# are vulnerable to #mentalhealth_issue# in connection with #social_factor#.",
+    "Surveys reveal that #population# report higher levels of #mentalhealth_issue# linked to #social_factor#."
+  ],
+  "sentence2": [
+    "By studying #intervention#, scientists hope to improve #outcome# and support #wellbeing_aspect#.",
+    "The use of #intervention# is being tested to promote #outcome# and enhance #wellbeing_aspect#.",
+    "Researchers believe #intervention# can increase #outcome# while protecting #wellbeing_aspect#.",
+    "Trials in #intervention# may lead to better #outcome# and healthier #wellbeing_aspect#.",
+    "Findings indicate that #intervention# could strengthen #outcome# and nurture #wellbeing_aspect#."
+  ],
+  "population": [
+    "college students",
+    "working parents",
+    "older adults",
+    "veterans",
+    "teenagers"
+  ],
+  "mentalhealth_issue": [
+    "anxiety",
+    "depression",
+    "burnout",
+    "social isolation",
+    "stress"
+  ],
+  "social_factor": [
+    "economic pressure",
+    "social media use",
+    "workplace demands",
+    "family conflict",
+    "academic competition"
+  ],
+  "intervention": [
+    "mindfulness programs",
+    "cognitive-behavioral therapy",
+    "peer support groups",
+    "exercise routines",
+    "art-based therapy"
+  ],
+  "outcome": [
+    "resilience",
+    "emotional balance",
+    "coping skills",
+    "self-esteem",
+    "psychological growth"
+  ],
+  "wellbeing_aspect": [
+    "mental health",
+    "quality of life",
+    "emotional wellbeing",
+    "social relationships",
+    "sense of purpose"
+  ]
+};
+
+function generateString(template) {
+    let placeholder = template.match(/#([^#]+)#/);
+    while (placeholder) {
+        let [fullMatch, key] = placeholder;
+        let choices = obj[key];
+        if (!choices) {
+            throw new Error(`No choices for key '${key}'`);
+        }
+        let choice = choices[Math.floor(Math.random() * choices.length)];
+        template = template.replace(fullMatch, generateString(choice));
+        placeholder = template.match(/#([^#]+)#/);
+    }
+    return template;
+}
+
+function displayString() {
+    var randomIndex = Math.floor(Math.random() * obj.origin.length);
+    document.getElementById('text-container').innerHTML = generateString(obj.origin[randomIndex]);
+}
+
+    displayString();  // call once at the beginning
+    setInterval(displayString, 30000);  // call every 30 seconds
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+            // Function to display the about modal
+            function displayAbout() {
+                modal.style.display = "block";
+            }
+		    function goFullscreen() {
+        if (document.documentElement.requestFullscreen) {
+            document.documentElement.requestFullscreen();
+        } else if (document.documentElement.mozRequestFullScreen) { // Firefox
+            document.documentElement.mozRequestFullScreen();
+        } else if (document.documentElement.webkitRequestFullscreen) { // Chrome, Safari and Opera
+            document.documentElement.webkitRequestFullscreen();
+        } else if (document.documentElement.msRequestFullscreen) { // IE/Edge
+            document.documentElement.msRequestFullscreen();
+        }
+    }
+</script>
+</body>
+</html>
