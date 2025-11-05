@@ -18,8 +18,6 @@ If it is easier to embed your project in an HTML file, just change the .md on th
 
 # Works Cited
 
-(add HTML code to do the hanging indentation, as seen below)
-
 <style>
   .works-cited {
     margin-left: 2em;
@@ -29,9 +27,27 @@ If it is easier to embed your project in an HTML file, just change the .md on th
 </style>
 
 <p class="works-cited">
-  Lastname, Firstname. <em>Book Title</em>. Press, 2025.
+  Dwijayanti, Amelia, and Margaretha Maria Shinta Pratiwi. 
+  “Social Media Addiction and Mental Health Among College Students.” Philanthropy: Journal of Psychology, vol. 9, no. 1, June 2025, pp. 60–73. https://doi.org/10.26623/philanthropy.v9i1.11726 
 </p>
 
 <p class="works-cited">
-  Doe, Jane. "Journal Article.” <em>Journal Name</em>, vol. 15, no. 2, 2025, pp. 45–67.
+  Kolhar, Manjur, Raisa Nazir Ahmed Kazi, and Abdalla Alameen. 
+  “Effect of Social Media Use on Learning, Social Interactions, and Sleep Duration among University Students.” Saudi Journal of Biological Sciences, vol. 28, no. 4, 2021, pp. 2216–2222. https://www.sciencedirect.com/science/article/pii/S1319562X21000103
 </p>
+
+<p class="works-cited">
+  Peach, Hannah, Jane F. Gaultney, and D. D. Gray. 
+  “Sleep Hygiene and Sleep Quality as Predictors of Positive and Negative Dimensions of Mental Health in College Students.” Cogent Psychology, vol. 3, no. 1, 2016. https://doi.org/10.1080/23311908.2016.1168768 
+</p>
+
+<p class="works-cited">
+  Petruzzello, Steven J., and Allyson G. Box. 
+  “The Kids Are Alright—Right? Physical Activity and Mental Health in College Students.” Kinesiology Review, vol. 9, no. 4, 2020, pp. 279–286. https://doi.org/10.1123/kr.2020-0039
+</p>
+
+<p class="works=cited">
+  Shen, Guanghui, et al. 
+  “The Longitudinal Relationships between Problematic Mobile Phone Use Symptoms and Negative Emotions: A Cross-Lagged Panel Network Analysis.” Comprehensive Psychiatry, vol. 135, 2024, pp. 1–6. https://www.sciencedirect.com/science/article/pii/S0010440X24000816
+</p>
+
