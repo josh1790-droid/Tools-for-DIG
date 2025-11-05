@@ -11,7 +11,9 @@ If it is easier to embed your project in an HTML file, just change the .md on th
 
 # Abstract
 
-Here is my abstract. 
+ The Case of Social Media vs The Student
+	The world we live in revolves around connection in the form of social media platforms. However, there is such a thing as too much of a good thing and it seems that college students are having the worst of it. The purpose of this interactive is to uncover the negative effects that overexposure to social media is having on college students. Several studies have shown that the impact of overexposure to social media has led to several mental health disorders such as depression, anxiety and psychological distress (Dwijayanti, Pratiwi). Likewise, this overconsumption is creating poor study habits and behaviors that result in undesirably academic performance and lead students to live extremely sedentary lives (Kolhar, Raisa, Alameen 2217). This project aims to highlight those negative effects and offer some behaviors that result in desirable academic outcomes. Using Twine, we will be able to explore different storylines and conclusions. Furthermore, we’ll explore how the combination of overconsumption and poor sleep hygiene leads to burnout. Findings showed that college students reporting better sleep quality also reported better mental health outcomes (Peach, Gaultney, Gray). Similarly, there have been observations conducted that showed the amount of sedentary time or the act of being sedentary was associated with increased mood disturbances. Thus, showcasing the benefits of physical activities on mental health (Petruzzello Box). Ultimately, we can present storylines that not only find the association between problematic mobile phone usage and negative emotions in university students (Shen et al.) but a few of the ways we can combat it. Discovering that there is a quite significant amount of literature on this topic leads us to believe that it is an issue that is worth exploring. 
+ 
 
 
 # Works Cited
